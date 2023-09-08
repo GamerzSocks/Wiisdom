@@ -1,6 +1,7 @@
 class Wiisdom:
     def __init__(self):
         self.knowledge_base = {
+            # DATABASE
             "What is the Wii?": "The Wii is a home video game console released by Nintendo.",
             "When was the Wii released?": "The Wii was released on November 19, 2006.",
             "What are the main features of the Wii?": "The Wii introduced motion-sensing controls through the Wii Remote.",
@@ -34,7 +35,7 @@ class Wiisdom:
             "What is the Wii LAN Adapter?": "The Wii LAN Adapter is an accessory that allows you to connect the Wii to the internet through a wired connection.",
             "What is the Wii Wheel?": "The Wii Wheel is an accessory designed for use with racing games on the Wii, providing a steering wheel-like interface for the Wii Remote.",
             "What is Wii Sports Resort?": "Wii Sports Resort is a sequel to Wii Sports, featuring a variety of new sports and activities designed to showcase the Wii MotionPlus accessory.",
-            "What is the Wii Fit Plus?": "Wii Fit Plus is an enhanced version of Wii Fit, offering additional exercises and activities for fitness and balance training.",
+            "What is Wii Fit Plus?": "Wii Fit Plus is an enhanced version of Wii Fit, offering additional exercises and activities for fitness and balance training.",
             "What is the Wii Speak Channel?": "The Wii Speak Channel was a feature that allowed users to chat with friends using the Wii Speak accessory.",
             "What is Wii Music?": "Wii Music is a music video game that allows players to simulate playing various musical instruments using the Wii Remote and Nunchuk.",
             "What is Wii Homebrew?": "Wii Homebrew refers to unofficial software and applications developed by the homebrew community for the Wii console. These applications are not officially endorsed or supported by Nintendo.",
@@ -42,20 +43,82 @@ class Wiisdom:
             "What are some popular Wii Homebrew applications?": "Some popular Wii Homebrew applications include the Homebrew Channel, which serves as a platform for running other homebrew software, and emulators for playing games from older consoles.",
             "Can using Wii Homebrew void my warranty?": "Yes, using Wii Homebrew may void your warranty with Nintendo, as it involves modifying the console's software which is not supported by the manufacturer.",
             "Is using Wii Homebrew legal?": "Using Wii Homebrew itself is not illegal, but it's important to be aware that certain homebrew applications or activities may infringe on copyrights or violate terms of service, so it's crucial to use homebrew responsibly and legally.",
-            "Can Wii Homebrew harm my Wii console?": "Improper use of Wii Homebrew can potentially harm your console, as it involves running custom code that hasn't been officially tested or approved by Nintendo. It's important to exercise caution and follow instructions carefully when using Wii Homebrew."
+            "Can Wii Homebrew harm my Wii console?": "Improper use of Wii Homebrew can potentially harm your console, as it involves running custom code that hasn't been officially tested or approved by Nintendo. It's important to exercise caution and follow instructions carefully when using Wii Homebrew.",
+            "What is Wii Sports Club?": "Wii Sports Club is an updated version of the original Wii Sports, featuring high-definition graphics and online multiplayer capabilities. It was released for the Wii U.",
+            "What sports are included in Wii Sports?":"Wii Sports includes five sports games: Tennis, Baseball, Bowling, Golf, and Boxing.",
+            "How do you play Wii Sports Tennis?": "In Wii Sports Tennis, you swing the Wii Remote like a racket to hit the ball. The game supports both single and doubles matches, allowing up to four players to play together.",
+            "Tell me about Wii Sports Baseball.": "Wii Sports Baseball allows you to pitch, bat, and field. You can pitch by making a throwing motion with the Wii Remote, and swing to bat. It features different baseball teams, each with their own skill levels.",
+            "Explain how to play Wii Sports Bowling.": "In Wii Sports Bowling, you mimic the motion of rolling a bowling ball with the Wii Remote. You can adjust your position and angle before releasing the ball. It supports up to four players.",
+            "What can you tell me about Wii Sports Golf?": "Wii Sports Golf allows you to play a simplified version of golf. You swing the Wii Remote like a golf club to take shots. The game features different courses with varying levels of difficulty.",
+            "How does Wii Sports Boxing work?": "Wii Sports Boxing involves using both the Wii Remote and Nunchuk to control your in-game character's punches and defensive moves. It's a physically engaging sport that simulates a boxing match.",
+            "What are the training exercises in Wii Sports?": "Wii Sports includes training exercises for each sport to help players improve their skills. These exercises range from hitting targets in Tennis to practicing your swing in Golf.",
+            "Is there a sequel to Wii Sports?": "Yes, there is a sequel called Wii Sports Resort. It introduced a variety of new sports and activities, taking advantage of the Wii MotionPlus accessory for more precise motion controls.",
+            "Tell me about the Wii MotionPlus.": "The Wii MotionPlus is an accessory that attaches to the Wii Remote to enhance its motion-sensing capabilities. It provides more accurate and responsive tracking of movements, allowing for a more immersive gaming experience.",
+            "What are the sports in Wii Sports Resort?": "Wii Sports Resort features a range of sports and activities, including Swordplay, Wakeboarding, Frisbee, Archery, Basketball, Table Tennis, Golf, Bowling, Power Cruising, Canoeing, Cycling, and Air Sports.",
+            "How does Wii Sports Resort differ from the original Wii Sports?": "Wii Sports Resort offers a wider variety of sports and activities compared to the original Wii Sports. It also takes advantage of the Wii MotionPlus for more precise control in games.",
+            "Tell me about Wii Fit and its relation to Wii Sports.": "Wii Fit is a fitness game that uses the Wii Balance Board accessory. While it shares the same platform as Wii Sports, it focuses on exercises, yoga, and balance activities rather than sports simulations.",
+            "What is Error 003?": "Error 003: Unauthorized device has been detected, happens when a Korean Key is installed on a Wii without a Korean OS. The most common way this happens is when using the homebrew application KoreanKii. This is a hard error and often reffered to as a brick.",
+            "What is the Nintendo Entertainment System (NES)?": "The Nintendo Entertainment System, often abbreviated as NES, is an 8-bit home video game console released by Nintendo. It was first launched in 1983 (as the Famicom in Japan) and is known for popularizing home console gaming.",
+            "What were some iconic games for the NES?": "Iconic games for the NES include Super Mario Bros., The Legend of Zelda, Metroid, and Duck Hunt, among others.",
+            "Tell me about the Super Nintendo Entertainment System (SNES).": "The Super Nintendo Entertainment System, or SNES, is a 16-bit home video game console released by Nintendo in 1990. It introduced advanced graphics and sound capabilities compared to its predecessor, the NES.",
+            "What were some popular SNES games?": "Popular SNES games include Super Mario World, The Legend of Zelda: A Link to the Past, Super Metroid, and Donkey Kong Country.",
+            "Explain the concept of the Game Boy.": "The Game Boy is a portable handheld gaming console released by Nintendo in 1989. It was the first successful handheld gaming system, featuring interchangeable cartridges.",
+            "What were some popular games for the Game Boy?": "Popular Game Boy games include Tetris, Pokémon Red and Blue, The Legend of Zelda: Link's Awakening, and Super Mario Land.",
+            "Tell me about the Nintendo 64 (N64).": "The Nintendo 64, or N64, is a 64-bit home video game console released by Nintendo in 1996. It introduced 3D graphics and was known for its unique three-handled controller.",
+            "What were some notable games for the Nintendo 64?": "Notable N64 games include Super Mario 64, The Legend of Zelda: Ocarina of Time, Mario Kart 64, and GoldenEye 007.",
+            "Explain the concept of the Game Boy Color.": "The Game Boy Color is a handheld gaming console released by Nintendo in 1998. It was an upgraded version of the original Game Boy, featuring color graphics.",
+            "What were some popular games for the Game Boy Color?": "Popular Game Boy Color games include Pokémon Gold and Silver, The Legend of Zelda: Oracle of Ages and Oracle of Seasons, and Super Mario Bros. Deluxe.",
+            "Tell me about the Game Boy Advance (GBA).": "The Game Boy Advance, or GBA, is a portable handheld gaming console released by Nintendo in 2001. It featured improved graphics and a wide library of games.",
+            "What were some notable games for the Game Boy Advance?": "Notable GBA games include The Legend of Zelda: The Minish Cap, Pokémon Ruby and Sapphire, Metroid Fusion, and Advance Wars.",
+            "Explain the concept of the Nintendo DS.": "The Nintendo DS is a dual-screen handheld gaming console released by Nintendo in 2004. It introduced touch screen controls and wireless multiplayer capabilities.",
+            "What were some popular games for the Nintendo DS?": "Popular DS games include New Super Mario Bros., Pokémon Diamond and Pearl, The Legend of Zelda: Phantom Hourglass, and Brain Age.",
+            "Tell me about the Nintendo DSi.": "The Nintendo DSi is an upgraded version of the DS, released in 2008. It featured a camera, improved hardware, and the ability to download games from the DSi Shop.",
+            "What were some notable games for the Nintendo DSi?": "Notable DSi games include Flipnote Studio, Shantae: Risky's Revenge, and Photo Dojo.",
+            "Explain the concept of the Nintendo 3DS.": "The Nintendo 3DS is a handheld gaming console released in 2011. It features glasses-free 3D technology and is backward compatible with DS games.",
+            "What were some popular games for the Nintendo 3DS?": "Popular 3DS games include The Legend of Zelda: Ocarina of Time 3D, Pokémon X and Y, Animal Crossing: New Leaf, and Mario Kart 7.",
+            "Tell me about the Wii U.": "The Wii U is a home video game console released by Nintendo in 2012. It featured a tablet-like GamePad controller with a touch screen and introduced the concept of asymmetric gameplay.",
+            "What were some notable games for the Wii U?": "Notable Wii U games include Splatoon, Super Mario 3D World, The Legend of Zelda: Breath of the Wild, and Mario Kart 8.",
+            "Explain the concept of the Nintendo Switch.": "The Nintendo Switch is a hybrid gaming console released in 2017. It can be used both as a home console and a portable device, allowing for versatile gaming experiences.",
+            "What were some popular games for the Nintendo Switch?": "Popular Switch games include The Legend of Zelda: Breath of the Wild, Animal Crossing: New Horizons, Super Mario Odyssey, and Splatoon 2.",
+            "Tell me about the Game Boy Advance SP.": "The Game Boy Advance SP is a redesigned version of the GBA, featuring a foldable clamshell design with a backlit screen. It was released in 2003.",
+            "What were some popular games for the Game Boy Advance SP?": "Popular GBA SP games include Fire Emblem, Castlevania: Aria of Sorrow, and Final Fantasy Tactics Advance.",
+            "What is Wii Error 001?": "Wii Error 001 is caused by an unauthorized or invalid signature. It usually occurs when attempting to load unofficial or modified software.",
+            "How can I fix Wii Error 001?": "To fix Wii Error 001, you may need to use a homebrew application like a custom IOS (cIOS) to bypass the signature check. Keep in mind that modifying the console in this way may void your warranty.",
+            "What is Wii Error 002?": "Wii Error 002 occurs when the system detects an unauthorized or unlicensed disc. It typically happens when trying to play a backup or burned copy of a game.",
+            "How can I fix Wii Error 002?": "You can fix Wii Error 002 by using a homebrew application like NeoGamma or a custom IOS to patch the system's IOS to allow for disc backups.",
+            "What is Wii Error 20100?": "Wii Error 20100 is an error code related to the Wii's internet connectivity. It can occur when trying to connect to the Wii's online services.",
+            "How can I fix Wii Error 20100?": "To fix Wii Error 20100, try resetting your internet connection, ensuring your router's firmware is up to date, or contacting Nintendo's support for further assistance.",
+            "What is Wii Error 32002?": "Wii Error 32002 is an error code related to the Wii console's internet connection settings. It may occur when attempting to perform a system update.",
+            "How can I fix Wii Error 32002?": "To fix Wii Error 32002, you may need to manually configure your internet connection settings, check for any interference or restrictions on your network, or try a wired connection if possible.",
+            "What is Wii Error 51330?": "Wii Error 51330 is an error code that occurs when the Wii console is unable to connect to the wireless network due to an incorrect security key or password.",
+            "How can I fix Wii Error 51330?": "To fix Wii Error 51330, double-check that the security key or password you've entered is correct. You may also need to adjust the wireless router's security settings to ensure compatibility with the Wii console.",
+            "What is Wii Error 52230?": "Wii Error 52230 is an error code that indicates an issue with the wireless router. It may occur due to interference, incorrect router settings, or other network-related problems.",
+            "How can I fix Wii Error 52230?": "To fix Wii Error 52230, try relocating the Wii console and router to reduce interference, ensure the router's firmware is up to date, or adjust the router's wireless channel settings.",
+            "What is Wii Error 61070?": "Wii Error 61070 is an error code related to the Wii's online services. It may occur when trying to connect to certain online features or multiplayer services.",
+            "How can I fix Wii Error 61070?": "To fix Wii Error 61070, ensure that your internet connection is stable and that the Wii console is within range of the wireless router. You may also want to check for any service outages or server maintenance on Nintendo's end.",
+            "What is Wii Error 85010?": "Wii Error 85010 is an error code specific to the Wii's online multiplayer services. It may occur when trying to connect to online multiplayer features in certain games.",
+            "How can I fix Wii Error 85010?": "To fix Wii Error 85010, ensure that your internet connection is stable and that the game's servers are operational. You may also want to try resetting your router and modem.",
+            "What is Wii Error 51331?": "Wii Error 51331 is an error code that occurs when the Wii console is unable to connect to the wireless network due to incorrect wireless router settings or interference.",
+            "How can I fix Wii Error 51331?": "To fix Wii Error 51331, double-check the wireless router's settings, making sure the SSID and security key match the network's settings. You may also want to try relocating the Wii console and router to reduce interference.",
+            "What is Wii Error 52030?": "Wii Error 52030 is an error code related to the Wii's internet connection settings. It may occur when trying to connect to a wireless network.",
+            "How can I fix Wii Error 52030?": "To fix Wii Error 52030, double-check the wireless router's settings and ensure that the SSID and security key are entered correctly on the Wii console. You may also want to try a different wireless channel on the router.",
+            "What is Wii Error 52130?": "Wii Error 52130 is an error code related to the Wii's internet connection settings. It may occur when trying to connect to a wireless network.",
+            "How can I fix Wii Error 52130?": "To fix Wii Error 52130, ensure that the wireless router's security settings are compatible with the Wii console. You may also want to try adjusting the wireless channel on the router."
         }
+        
 
     def get_response(self, question):
         return self.knowledge_base.get(question, "I'm sorry, I don't have information on that.")
 
-# Create an instance of the WiiAI
-wii_ai = Wiisdom()
+# Create an instance of Wiisdom
+wiisdom = Wiisdom()
 
-# Interactive loop
+# Chat Handler
 while True:
     user_input = input("You: ")
     if user_input.lower() == "exit":
         print("Goodbye!")
         break
-    response = wii_ai.get_response(user_input)
-    print("Wii AI:", response)
+    response = wiisdom.get_response(user_input)
+    print("Wiisdom:", response)
+    
